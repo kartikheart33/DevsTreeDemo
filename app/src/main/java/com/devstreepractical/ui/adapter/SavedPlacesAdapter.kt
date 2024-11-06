@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.devstreepractical.databinding.ItemSavedPlacesBinding
+import com.devstreepractical.db.PlacesDataModel
 import com.devstreepractical.util.OnSavedItemClick
 import com.devstreepractical.util.setSafeOnClickListener
 

@@ -8,7 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import com.devstreepractical.R
 import com.devstreepractical.databinding.ActivityShowRoutesBinding
 import com.devstreepractical.db.PlacesDataBase
-import com.devstreepractical.ui.adapter.PlacesDataModel
+import com.devstreepractical.db.PlacesDataModel
 import com.devstreepractical.util.DirectionsJSONParser
 import com.devstreepractical.util.gone
 import com.devstreepractical.util.setSafeOnClickListener

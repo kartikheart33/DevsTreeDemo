@@ -8,7 +8,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.lifecycleScope
 import com.devstreepractical.databinding.ActivityMainBinding
 import com.devstreepractical.db.PlacesDataBase
-import com.devstreepractical.ui.adapter.PlacesDataModel
+import com.devstreepractical.db.PlacesDataModel
 import com.devstreepractical.ui.adapter.SavedPlacesAdapter
 import com.devstreepractical.util.Constant
 import com.devstreepractical.util.gone

@@ -8,7 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import com.devstreepractical.R
 import com.devstreepractical.databinding.ActivityAddPoiBinding
 import com.devstreepractical.db.PlacesDataBase
-import com.devstreepractical.ui.adapter.PlacesDataModel
+import com.devstreepractical.db.PlacesDataModel
 import com.devstreepractical.ui.adapter.SearchLocationAdapter
 import com.devstreepractical.util.*
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -121,7 +121,7 @@ class AddPoiActivity : AppCompatActivity() {
         override fun afterTextChanged(s: Editable) {
             if (s.toString() != "") {
                 mAutoCompleteAdapter!!.filter.filter(s.toString())
-                if (mBinding.llResult.isgGone()) {
+                if (mBinding.llResult.isGone()) {
                     mBinding.llResult.visible()
                 }
             } else {

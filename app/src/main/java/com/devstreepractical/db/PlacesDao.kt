@@ -1,7 +1,7 @@
-package com.devstreepractical.ui
+package com.devstreepractical.db
 
 import androidx.room.*
-import com.devstreepractical.ui.adapter.PlacesDataModel
+import com.devstreepractical.db.PlacesDataModel
 import kotlinx.coroutines.flow.Flow
 
 @Dao

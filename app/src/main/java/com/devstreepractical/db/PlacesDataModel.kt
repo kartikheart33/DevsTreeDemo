@@ -1,4 +1,4 @@
-package com.devstreepractical.ui.adapter
+package com.devstreepractical.db
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
