@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Location Source</string>
+    <string name="no_place_available_lets_start_by_adding_few_places">No place available.\nLets start by adding few places</string>
+    <string name="add_poi">Add POI</string>
+    <string name="search_places">Search Places</string>
+
+
+    <string name="apikey">AIzaSyBSNyp6GQnnKlrMr7hD2HGiyF365tFlK5U</string>
+    <string name="do_you_want_to_save_this_selected_location">Do you want to save this selected location?</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="routing">Routing</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="generating_route_information">Generating route information</string>
+</resources>
